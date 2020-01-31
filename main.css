@@ -204,7 +204,7 @@ li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 90%;
     text-align: center;
     z-index: 1;
 }
@@ -229,8 +229,10 @@ li{
     position: absolute;
     top: 5rem;
     /*left: 5rem;*/
-    width: 15rem;
-    height: 4rem;
+    width: 20%;
+    min-width: 10rem;
+    max-width: 15rem;
+    height: 4%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -585,14 +587,6 @@ input[type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 768px){
-    body{
-        /* background: url("images/sitebg2.jpg") no-repeat center fixed; */
-        background: /*#fbf3f2*/ white;
-        background-size: cover;
-    }    
-}
-
 .landing-text h1{
     font-size: 15rem;
 }
@@ -650,7 +644,19 @@ input[type="submit"]:hover{
     /* left: -5.9rem; */
 }
 
-@media screen and(max-width: 600px)
+@media screen and (max-width: 768px){
+    body{
+        /* background: url("images/sitebg2.jpg") no-repeat center fixed; */
+        background: /*#fbf3f2*/ white;
+        background-size: cover;
+    }
+
+    .landing-text h1{
+        font-size: 10rem;
+    }    
+}
+
+@media screen and(max-width: 375px)
 {
     .menu-toggler{
         top: 2rem;
@@ -658,7 +664,7 @@ input[type="submit"]:hover{
     }
 
     .landing-text h1{
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .landing-text h6{
