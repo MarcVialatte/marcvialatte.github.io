@@ -717,8 +717,8 @@ input[type="submit"]:hover{
         width: 100%;
     }
 
-    .up{
+    /*.up{
         right: 2rem;
-    }
+    }*/
 }
 /*End media queries*/
