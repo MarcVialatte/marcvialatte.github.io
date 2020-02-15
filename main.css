@@ -264,6 +264,18 @@ li{
     cursor: pointer;
     z-index: 1;
 }
+.logo-CV{
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    width: 3rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1;
+}
 
 /*End header*/
 
@@ -327,6 +339,11 @@ li{
 
 .fa-github-square:hover{
     color: #1c768f;
+}
+
+.icon-link-CV{
+    width: 4.5rem;
+    height: 4.5rem;
 }
 
 .fa-instagram{
