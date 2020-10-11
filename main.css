@@ -7,9 +7,10 @@
 
 html{
 font-size: 10px;
-/* font-family: 'Roboto', sans-serif; */
-font-family: 'Raleway', sans-serif;
-color: #032539;
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Raleway', sans-serif;  */
+font-family: 'Caveat', cursive;
+/* color: #032539; */
 }
 
 body{
@@ -25,7 +26,8 @@ section{
 }
 
 h1{
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Caveat', cursive;
 }
 
 a{
@@ -60,7 +62,7 @@ img{
 .section-heading h1{
     font-size: 3.5rem;
     /* color: rgba(255, 255, 255, .3); */
-    color: #287394;
+    color: #287394; 
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -75,7 +77,7 @@ img{
     left: 50%;
     transform: translateX(-50%);
     /* background-color: rgba(255, 255, 255, .75); */
-    background-color: #1c768f;
+    background-color: /* #1c768f */ black;
 }
 
 .section-heading h1::before{
@@ -113,7 +115,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-color: /* #16162d */ black;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -334,7 +336,7 @@ li{
 }
 
 .fa-github-square{
-    color: #032539;
+    color: /* #032539 */ black;
 }
 
 .fa-github-square:hover{
@@ -347,7 +349,7 @@ li{
 }
 
 .fa-instagram{
-    color: #032539;
+    color: /* #032539 */ black;
 }
 
 .fa-instagram:hover{
