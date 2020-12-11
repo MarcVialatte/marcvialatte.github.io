@@ -512,7 +512,7 @@ li{
 /*End timeline*/
 
 /*Start contact*/
-.contact{
+/*.contact{
     background-color: #023246;
 }
 
@@ -553,7 +553,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     color: #1c768f;
     background-color: #d4d4ce;
-}
+}*/
 /*End contact*/
 
 /*Start footer*/
