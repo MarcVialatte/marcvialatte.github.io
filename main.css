@@ -227,21 +227,6 @@ li{
     font-weight: 300;
 }
 
-.logo-iut{
-    position: absolute;
-    top: 5rem;
-    /*left: 5rem;*/
-    width: 20%;
-    min-width: 10rem;
-    max-width: 15rem;
-    height: 4%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    z-index: 1;
-}
-
 .logo-french{
     position: absolute;
     top: 5rem;
@@ -293,7 +278,7 @@ li{
 
 }
 
-.about-heading{
+/*.about-heading{
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
@@ -304,7 +289,7 @@ li{
     align-items: center;
     padding: 2rem;
 
-}
+}*/
 
 .about-heading h1{
     font-size: 10rem;
@@ -342,6 +327,15 @@ li{
 .fa-github-square:hover{
     color: #1c768f;
 }
+
+.fa-linkedin{
+    color: /* #032539 */ black;
+}
+
+.fa-linkedin:hover{
+    color: #1c768f;
+}
+
 
 .icon-link-CV{
     width: 4.5rem;
@@ -639,7 +633,7 @@ input[type="submit"]:hover{
 }
 
 .about-details li{
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .icon-container{
