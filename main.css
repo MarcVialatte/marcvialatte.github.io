@@ -7,14 +7,13 @@
 
 html{
 font-size: 10px;
-/*font-family: 'Raleway', sans-serif;  */
 font-family: 'Caveat', cursive;
 }
 
 body{
     width: 100%;
     height: 100%;
-    background: /*#fbf3f2*/ white;
+    background: white;
     background-size: cover;
 }
 
@@ -23,13 +22,12 @@ section{
 }
 
 h1{
-    /*font-family: 'Space Mono', monospace;*/
     font-family: 'Caveat', cursive;
 }
 
 a{
     text-decoration: none;
-    color: /*#fbf3f2*/ white;
+    color: white;
 }
 
 p{
@@ -58,7 +56,6 @@ img{
 
 .section-heading h1{
     font-size: 3.5rem;
-    /* color: rgba(255, 255, 255, .3); */
     color: #287394; 
     text-transform: uppercase;
     font-weight: 300;
@@ -73,8 +70,7 @@ img{
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    /* background-color: rgba(255, 255, 255, .75); */
-    background-color: /* #1c768f */ black;
+    background-color: black;
 }
 
 .section-heading h1::before{
@@ -112,7 +108,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: /* #16162d */ black;
+    background-color: black;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -132,7 +128,6 @@ li{
 }
 
 .nav-link{
-    /* font-family: 'The Historia Demo', sans-serif; */
     font-family: 'Satisfy', cursive;
     font-size: 5rem;
     padding: 1rem;
@@ -210,7 +205,6 @@ li{
 
 .landing-text h1{
     font-size: 20rem;
-    /* font-family: 'The Historia Demo', sans-serif; */
     font-family: 'Satisfy', cursive;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -275,19 +269,6 @@ li{
 
 }
 
-/*.about-heading{
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 0;
-    margin-bottom: 6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-
-}*/
-
 .about-heading h1{
     font-size: 10rem;
     opacity: .3;
@@ -300,7 +281,6 @@ li{
 
 .profile-img{
     flex: 1;
-    /*margin-right: 5rem;*/
     justify-content: center;
 }
 
@@ -391,7 +371,6 @@ li{
 
 /*Start portfolio*/
 .portfolio-item{
-    /*display: flex;*/
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
@@ -455,8 +434,6 @@ li{
 
 .timeline h1{
     font-size: 2rem;
-    /*text-transform: uppercase;*/
-    /* color: rgba(255, 255, 255, 0.5); */
     font-weight: 300;
     margin-bottom: 1rem;
     opacity: 1.5;
@@ -503,49 +480,6 @@ li{
 /*End timeline*/
 
 /*Start contact*/
-/*.contact{
-    background-color: #023246;
-}
-
-.contact h6{
-    color: #d4d4ce;
-}
-
-form{
-    width: 70%;
-    margin: 0 auto;
-    color: #d4d4ce;
-}
-
-form label{
-    font-size: 1.5rem;
-}
-
-input,
-select,
-textarea{
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    outline-color: #1c768f;
-}
-
-input[type="submit"]{
-    width: initial;
-    background-color: #1c768f;
-    color: #d4d4ce;
-    padding: 1rem 2rem;
-    border-radius: .8rem;
-    cursor: pointer;
-    transition: background-color 500ms;
-}
-
-input[type="submit"]:hover{
-    color: #1c768f;
-    background-color: #d4d4ce;
-}*/
-
 .contact p{
     font-size: 1.8rem;
     font-weight: 300;
@@ -667,8 +601,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 768px){
     body{
-        /* background: url("images/sitebg2.jpg") no-repeat center fixed; */
-        background: /*#fbf3f2*/ white;
+        background: white;
         background-size: cover;
     }
 
