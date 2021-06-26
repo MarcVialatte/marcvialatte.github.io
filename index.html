@@ -1,372 +1,198 @@
 <!DOCTYPE html>
-<html lang="en_US">
-<head>
-    <meta name="p:domain_verify" content="40015fa647fe0baaa758d73e79ba240b"/>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Marc Vialatte</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-</head>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-<body>
-    <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="#expertises" class="nav-link">Expertises</a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#degree" class="nav-link">Degrees</a>
-                </li>
-                <li>
-                    <a href="#experiences" class="nav-link">Experiences</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <div class="logo-french">
-                    <a href="french.html">
-                        <img src="images/france.png" alt="">
-                    </a>
-                </div>
-                <div class="logo-english">
-                    <a href="index.html">
-                        <img src="images/united-kingdom.png" alt="">
-                    </a>
-                </div>
-                <div class="logo-CV">
-                    <a href="images/CV Marc Vialatte EN.pdf">
-                        <img src="images/CV.png" alt="">
-                    </a>
-                </div>
-            </ul>
-        </nav>
-        <div class="landing-text">
-            <h1>Marc Vialatte</h1>
-            <h6>3D Developer</h6>
-        </div>
-    </header>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <section class="about" id="about">
-        <div class="container">
-            <div class="profile-img" data-aos="fade-right" data-aos-delay="200">
-                <img src="images/profile.jpg" alt="">
-            </div>
-            <div class="about-details" data-aos="fade-left" data-aos-delay="400">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
+        <title>Marc Vialatte</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Marc Vialatte</a>
                 </div>
-                <p>
-                    <br> French 21-years-old student passionate about computer science,
-                    photographs, Ancient Egypt, video games, competitive
-                    and/or community where I was guild master (group
-                    creation and management, event organization and activities
-                    in game), role-playing games such as Dungeons & Dragons as
-                    well as Fantasy literature.
-                </p>
-                <div class="social-media">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="https://github.com/Marc-Vialatte" target="_blank" class="icon-link">
-                                <i class="fab fa-github-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/vialatte-marc/?locale=en_US" target="_blank" class="icon-link">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/marc_vialatte/" target="_blank" class="icon-link">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <div class="icon-link-CV">
-                            <a href="images/CV Vialatte Marc EN.pdf">
-                                <img src="images/CV.png" alt="">
-                            </a>
-                        </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="expertises" id="expertises">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Expertises</h1>
-                <h6>What I can do</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill" data-aos="fade-in" data-aos-delay="200">
-                    <div class="icon-container">
-                        <i class="fas fa-laptop-code"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Marc</span><br> 3D Developer</h1>
+
+                    <a href="mailto: vialatte.marc@gmail.com" target="_blank" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/vialatte-marc/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/marc_vialatte/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <!--<a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>-->
+                    <a href="https://github.com/Marc-Vialatte" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/profil.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="">
                     </div>
-                    <h1>Desktop Developer</h1>
-                    <p>
-                        C++, C#, C, Java and Python skills. And some knowledge in Qt Development.
-                    </p>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Marc</h2>
+                        <p class="about__text">French 21-years-old student passionate about computer science, photographs, Ancient Egypt, video games, competitive and/or community where I was guild master (group creation and management, event organization and activities in game), role-playing games such as Dungeons & Dragons as well as Fantasy literature.
+                        </p>           
+                    </div>                                   
                 </div>
-                <div class="skill" data-aos="fade-in" data-aos-delay="400">
-                    <div class="icon-container">
-                        <i class="fas fa-mobile-alt"></i>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">I present to you some of my key technical skills.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code skills__icon'></i>
+                                <span class="skills__name">OOP</span>
+                            </div>
+                            <div class="skills__bar skills__oop">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-c-plus-plus skills__icon'></i>
+                                <span class="skills__name">C/C++</span>
+                            </div>
+                            <div class="skills__bar skills__c">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-joystick skills__icon'></i>
+                                <span class="skills__name">Game Development</span>
+                            </div>
+                            <div class="skills__bar skills__game">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-git-branch skills__icon' ></i>
+                                <span class="skills__name">Source Control</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
                     </div>
-                    <h1>Mobile Developer</h1>
-                    <p>
-                        Some knowledge in Java Android and Swift for IOS.
-                    </p>
-                </div>
-                <div class="skill" data-aos="fade-in" data-aos-delay="600">
-                    <div class="icon-container">
-                        <i class="fas fa-gamepad"></i>
+                    
+                    <div>              
+                        <img src="assets/img/skills.jpg" alt="" class="skills__img">
                     </div>
-                    <h1>Game Programmer</h1>
-                    <p>
-                        Several experiments and knowledge in game programming with Unity in C#
-                        and Unreal Engine in Blueprint and C++.
-                    </p>
                 </div>
-                <div class="skill" data-aos="fade-in" data-aos-delay="800">
-                    <div class="icon-container">
-                        <i class="fas fa-code"></i>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.png" alt="">
                     </div>
-                    <h1>Web Developer</h1>
-                    <p>
-                        Few knowledge in HTML, CSS, JS, SQL and PHP.
-                    </p>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.png" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>View some of my recent work</h6>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img  has-margin-right" data-aos="fade-right" data-aos-delay="0">
-                    <img src="images/3DCardGame.png" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="200">
-                    <h6>Game Development</h6>
-                    <h1>3D Game Cards</h1>
-                    <p>
-                        Multiplatform 3D map game realized in two in 2 months in parallel of my alternation. 
-                        For this project we chose to work on his Unity. The goal of the game is simple, defeat 
-                        your opponent thanks to the ability to move his character as well as the cards available. 
-                        My role was to imagine and carry out the whole programming part of the project. 
-                        This project is very inspired by the game Drakerz-Confrontation released in 2013.                    
-                    </p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="200">
-                    <h6>Game Development</h6>
-                    <h1>Fallen</h1>
-                    <p>
-                        A role-playing game set in a fantastic medieval universe created with Unreal Engine 4, to continue 
-                        our discovery following the tutored project of the previous year. During this project I was initially 
-                        busy creating a game design based on everyone’s ideas. Then I chose to develop the opponents met 
-                        by the player (their artificial intelligence, and their skills). I also took over part of the combat 
-                        system on the player side.                    
-                    </p>
-                    <a href="https://github.com/DorianVidal/ProjetRPG" target="_blank" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="400">
-                    <img src="images/Fallen.jpg" alt="">
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img  has-margin-right" data-aos="fade-right" data-aos-delay="400">
-                    <img src="images/StMichel.jpg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
-                    <h6>Desktop Development</h6>
-                    <h1>3D Application</h1>
-                    <p>
-                        During my first year of study we were asked to realize a 3D application with the objective of 
-                        visualization of the "Rocher Saint-Michel d'Aiguilhe", with a highlighting of points of interest and information. 
-                        We chose to use an engine that we had not seen in progress: Unreal Engine 4.                    
-                    </p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="600">
-                    <h6>Game Development</h6>
-                    <h1>REEM</h1>
-                    <p>
-                        REEM is a game made with Unity during a group project of 17 during my second year of IUT for 3 weeks. 
-                        This is a management game where you have to collect resources to be able to repair your rocket. During 
-                        this project I took charge of making the game design from the ideas of each one, then developing the 
-                        user experience part.                    
-                    </p>
-                    <a href="https://projetreem.github.io/" target="_blank" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="800">
-                    <img src="images/REEM.jpg" alt="">
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="800">
-                    <img src="images/LeBonCoing.jpeg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1000">
-                    <h6>Web Development</h6>
-                    <h1>Le Bon Coing</h1>
-                    <p>
-                        This is a commercial ad website made in group of three with symfony framework.
-                    </p>
-                    <a href="https://leboncoing.herokuapp.com/" target="_blank" class="cta">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1000">
-                    <h6>Game Development</h6>
-                    <h1>Procedural Solar System</h1>
-                    <p>
-                        This is a 3D application made with Unity Engine, in which we can create procedural planets and modify them with meteors.
-                    </p>
-                    <a href="https://github.com/corentin703/SysSol" target="_blank" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
-                    <img src="images/Procedural-Solar-System.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
 
-    <section class="degree" id="degree">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Degrees</h1>
-                <h6>Past and curent degrees</h6>
-            </div>
-            <div class="timeline" data-aos="fade-down" data-aos-delay="200">
-                <ul>
-                    <li class="date" data-date="2020 - Today">
-                        <h1>Bachelor's Degree in Computer Science</h1>
-                        <p>
-                            Licence professionnelle Métiers de l'informatique : conduite de projets parcours développement d'application 3D interactives, 43000 le Puy-en-Velay, France
-                        </p>
-                    </li>
-                    <li class="date" data-date="2018 - 2020">
-                        <h1>Technical Diploma in Computer Science</h1>
-                        <p>
-                            IUT Informatique Graphique section programmation, 43000 le Puy-en-Velay, France
-                        </p>
-                    </li>
-                    <li class="date" data-date="2018">
-                        <h1>High Scool Diploma (Baccalauréat) in Sciences with Mathematics Specialty and Latin Option with Honors.</h1>
-                        <p>
-                            Cité scolaire du Cheylard, 07160 Le Cheylard, France
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+                <div class="contact__container bd-grid">
+                    <p>
+                        vialatte.marc@gmail.com<br>
+                        +33 6 49 44 95 97 <br>
+                        57 Avenue de la Gare, 07160 Le Cheylard <br>
+                    </p>
+                    </div>
+            </section>
+        </main>
 
-    <section class="experiences" id="experiences">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Experiences</h1>
-                <h6>Past and curent jobs</h6>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marc Vialatte</p>
+            <div class="footer__social">
+                <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a> -->
+                <!-- <a href="https://www.instagram.com/marc_vialatte/" class="footer__icon"><i class='bx bxl-instagram' ></i></a> -->
+                <!-- <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
             </div>
-            <div class="timeline" data-aos="fade-down" data-aos-delay="200">
-                <ul>
-                    <li class="date" data-date="September 2020 - Today">
-                        <h1>Apprenticeship at Albyon, 69002 Lyon, France</h1>
-                        <p>
-                            Unity Tools Developper.
-                        </p>
-                        <a href="https://www.albyon.io" target="_blank" class="cta">View Details</a>
-                    </li>
-                    <li class="date" data-date="2018">
-                        <h1>Picking of apricots, 07270 Empurany, France</h1>
-                        <p>
-                            Responsible for picking and sorting apricots.
-                        </p>
-                    </li>
-                    <li class="date" data-date="2018">
-                        <h1>Event Manager, IUT Informatique Graphique, 43000 Le Puy-en-Velay, France</h1>
-                        <p>
-                            Event Manager at the Student Office.
-                        </p>
-                    </li>
-                    <li class="date" data-date="2016 - 2018">
-                        <h1>Assistant coach, Handball Club, 07160 Le Cheylard, France</h1>
-                        <p>
-                            Assistant coach of the youth group (11 – 15 years).
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
 
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Let's work together</h6>
-                <br>
-                <li><a href="mailto: vialatte.marc@gmail.com" target="_blank" class="label">vialatte.marc@gmail.com</a></li>
-                <p>
-                    +33 6 49 44 95 97 <br>
-                    57 Avenue de la Gare, 07160 Le Cheylard <br>
-                </p>
-            </div>
-            <!--<form id="contact-form" method="POST" action="mail.php" data-aos="fade-up" data-aos-delay="300">
-                <label for="name">Name :</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-                <label for="service">Services :</label>
-                <select name="service" id="service">
-                    <option value="Desktop Development">Desktop Development</option>
-                    <option value="Mobile Development">Mobile Development</option>
-                    <option value="Game Development">Game Development</option>
-                    <option value="Web Development">Web Development</option>
-                </select>
-                <label for="message">Message :</label>
-                <textarea name="message" id="message" cols="10" rows="10"></textarea>
-                <input type="submit" value="Submit">
-            </form> -->
-        </div>
-    </section>
 
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-        </div>
-        <p>&copy; 2020 Marc Vialatte</p>
-    </footer>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="main.js"></script>
-</body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
