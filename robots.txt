@@ -1,8 +1,0 @@
-# robots.txt for https://marc-vialatte.github.io/portfolio/
-
-User-agent: googlebot
-Disallow: /checkout/
-Disallow: /icons/
-
-Sitemap: https://marc-vialatte.github.io/portfolio/
-Sitemap: https://marc-vialatte.github.io/portfolio/french.html
