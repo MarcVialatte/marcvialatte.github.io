@@ -1,198 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
-        <title>Marc Vialatte</title>
+        <title>Responsive Portfolio Website</title>
     </head>
     <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Marc Vialatte</a>
-                </div>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Marc Vialatte</a>
 
                 <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contactme
+                            </a>
+                        </li>
                     </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
                 </div>
             </nav>
         </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Marc</span><br> 3D Developer</h1>
-
-                    <a href="mailto: vialatte.marc@gmail.com" target="_blank" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/vialatte-marc/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/marc_vialatte/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <!--<a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>-->
-                    <a href="https://github.com/Marc-Vialatte" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/profil.png" alt="">
-                </div>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                
             </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'm Marc</h2>
-                        <p class="about__text">French 21-years-old student passionate about computer science, photographs, Ancient Egypt, video games, competitive and/or community where I was guild master (group creation and management, event organization and activities in game), role-playing games such as Dungeons & Dragons as well as Fantasy literature.
-                        </p>           
-                    </div>                                   
-                </div>
+        
             </section>
 
-            <!--===== SKILLS =====-->
+            <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">I present to you some of my key technical skills.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code skills__icon'></i>
-                                <span class="skills__name">OOP</span>
-                            </div>
-                            <div class="skills__bar skills__oop">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-c-plus-plus skills__icon'></i>
-                                <span class="skills__name">C/C++</span>
-                            </div>
-                            <div class="skills__bar skills__c">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">70%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-joystick skills__icon'></i>
-                                <span class="skills__name">Game Development</span>
-                            </div>
-                            <div class="skills__bar skills__game">
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-git-branch skills__icon' ></i>
-                                <span class="skills__name">Source Control</span>
-                            </div>
-                            <div class="skills__bar skills__git">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/skills.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
             </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
 
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.png" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.png" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
-                </div>
+
             </section>
 
-            <!--===== CONTACT =====-->
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
-                    <p>
-                        vialatte.marc@gmail.com<br>
-                        +33 6 49 44 95 97 <br>
-                        57 Avenue de la Gare, 07160 Le Cheylard <br>
-                    </p>
-                    </div>
+
             </section>
         </main>
 
-        <!--===== FOOTER =====-->
+        <!--==================== FOOTER ====================-->
         <footer class="footer">
-            <p class="footer__title">Marc Vialatte</p>
-            <div class="footer__social">
-                <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a> -->
-                <!-- <a href="https://www.instagram.com/marc_vialatte/" class="footer__icon"><i class='bx bxl-instagram' ></i></a> -->
-                <!-- <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
-            </div>
-            <p>&#169; 2021 copyright all right reserved</p>
+
+            
         </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
 
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
+        <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
